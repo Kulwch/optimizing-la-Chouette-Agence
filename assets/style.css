@@ -677,7 +677,20 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.quoted {
+    font-size: 16px;
+}
+
+.subhead {
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -707,6 +720,11 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+
+.title-center {
+    width: 700px;
+    margin: auto;
 }
 
 h3 {
