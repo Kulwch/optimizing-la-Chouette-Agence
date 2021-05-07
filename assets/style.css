@@ -653,6 +653,14 @@ a {
     color: #575757!important;
 }
 
+.bold-title {
+    font-weight: bold;
+}
+
+.paler-title {
+    color: #FFF6F3!important;
+}
+
 .container {
     max-width: 1000px;
 }
