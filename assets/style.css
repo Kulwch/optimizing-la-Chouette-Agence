@@ -655,6 +655,7 @@ a {
 
 .bold-title {
     font-weight: bold;
+    overflow-wrap: normal;
 }
 
 .paler-title {
@@ -685,6 +686,10 @@ a {
 
 p {
     font-size: 14px;
+}
+
+.text-pre-line {
+    hyphens: auto;
 }
 
 .quote {
@@ -725,12 +730,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
 .title-center {
-    width: 700px;
+    width: auto;
     margin: auto;
 }
 
@@ -766,11 +771,21 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+    .portfolio-row {
+        margin-bottom: unset;
+        margin-top: unset;
+    }
 }
 
 .avatar {
