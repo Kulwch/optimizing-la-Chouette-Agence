@@ -688,10 +688,6 @@ p {
     font-size: 14px;
 }
 
-.text-pre-line {
-    hyphens: auto;
-}
-
 .quote {
     font-size: 18px;
     font-style: italic;
